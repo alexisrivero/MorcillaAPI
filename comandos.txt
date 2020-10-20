@@ -1,0 +1,17 @@
+python manage.py makemigrations para crear las migraciones después de cambiar los modelos de la API
+python manage.py migrate para asentar los datos en la base de datos
+python manage.py runserver 0.0.0.0:8000 > arranca el sv > en el otro
+npx react-native run-android > arranca la aplicacioni > aca
+agregar modelo telefono
+agregar modelo al admin
+agregar serializador telefono
+agregar viewset telefono
+agregar URL para viewset telefono
+agregar modelo en react-native > ignite g model nombre
+agregar store del modelo en react-native > ignite g model nombre-store
+configurar la api para obtener telefonos > 
+configurar el store del modelo para obtener los datos de la api de telefonos
+usar el store de telefonos en la pantalla de bienvenida para mostrar una lista de telefonos
+agregar al store del modelo la posibilidad de seleccionar un modelo 
+crear una screen para el modelo donde se muestra el modelo seleccionado => ignite g screen nombre
+adb reverse tcp:9090 tcp:9090 > reactotron

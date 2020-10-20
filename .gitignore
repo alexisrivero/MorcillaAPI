@@ -1,0 +1,7 @@
+venv 
+.vscode
+*.pyc
+*.sqlite3
+MorcillaAPI/media
+*.cpython
+

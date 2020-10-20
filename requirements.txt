@@ -1,0 +1,5 @@
+# modulo = version
+django
+djangorestframework
+django-extensions
+Pillow
