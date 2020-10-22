@@ -1,0 +1,8 @@
+{% if object  %}
+<h1>{{ object.nombre }}</h1>
+<h4>{{ object.fecha_creacion|date }}</h4>
+<p>esta es la pagina de detalles pizzeros</p>
+<p>generada para usted {{ now|date }}</p>
+{% else  %}
+<h1>Pizza inexistente</h1>
+{% endif %}

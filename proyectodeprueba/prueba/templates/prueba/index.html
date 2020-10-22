@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HOLA MAMA</title>
+</head>
+
+<body>
+{% if pizza_list %}
+    <ul>
+        {% for pizza in pizza_list %}
+        <li>{{ pizza.nombre }}</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>no hay pizza</p>
+{% endif %}
+</body>
+
+</html>

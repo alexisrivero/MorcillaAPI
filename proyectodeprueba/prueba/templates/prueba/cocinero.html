@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HOLA SENIOR COCINERO</title>
+</head>
+
+<body>
+{% if cocinero_list %}
+    <ul>
+        {% for cocinero in cocinero_list %}
+        <li>{{ cocinero.nombre }}</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>no existe ese cocinero</p>
+{% endif %}
+</body>
+
+</html>

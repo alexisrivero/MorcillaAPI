@@ -15,3 +15,6 @@ usar el store de telefonos en la pantalla de bienvenida para mostrar una lista d
 agregar al store del modelo la posibilidad de seleccionar un modelo 
 crear una screen para el modelo donde se muestra el modelo seleccionado => ignite g screen nombre
 adb reverse tcp:9090 tcp:9090 > reactotron
+
+comando para dumpear data
+./manage.py dumpdata --natural-foreign --natural-primary -e contenttypes -e auth.Permission --indent 4 -o datitos.json

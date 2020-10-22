@@ -1,0 +1,464 @@
+[
+{
+    "model": "prueba.pizza",
+    "pk": 1,
+    "fields": {
+        "nombre": "napolitana",
+        "fecha_creacion": "2020-10-02"
+    }
+},
+{
+    "model": "prueba.pizza",
+    "pk": 2,
+    "fields": {
+        "nombre": "muzza",
+        "fecha_creacion": "2020-10-20"
+    }
+},
+{
+    "model": "prueba.pizza",
+    "pk": 3,
+    "fields": {
+        "nombre": "pizza con anana",
+        "fecha_creacion": "2020-10-20"
+    }
+},
+{
+    "model": "prueba.pizza",
+    "pk": 4,
+    "fields": {
+        "nombre": "wadwadwad",
+        "fecha_creacion": "2020-10-07"
+    }
+},
+{
+    "model": "prueba.pizza",
+    "pk": 5,
+    "fields": {
+        "nombre": "la favorita de diego",
+        "fecha_creacion": "2020-10-21"
+    }
+},
+{
+    "model": "prueba.pizza",
+    "pk": 6,
+    "fields": {
+        "nombre": "Pizza inexistente",
+        "fecha_creacion": "2020-10-22"
+    }
+},
+{
+    "model": "prueba.cocinero",
+    "pk": 1,
+    "fields": {
+        "nombre": "Diego Barrientos",
+        "nacionalidad": 2,
+        "pizzas": [
+            1,
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "prueba.cocinero",
+    "pk": 2,
+    "fields": {
+        "nombre": "Amigoso",
+        "nacionalidad": 3,
+        "pizzas": [
+            1,
+            2,
+            4,
+            5
+        ]
+    }
+},
+{
+    "model": "prueba.cocinero",
+    "pk": 3,
+    "fields": {
+        "nombre": "respeto cabre",
+        "nacionalidad": 1,
+        "pizzas": [
+            2,
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "prueba.cocinero",
+    "pk": 4,
+    "fields": {
+        "nombre": "CEO OF CIA",
+        "nacionalidad": 1,
+        "pizzas": [
+            1,
+            2
+        ]
+    }
+},
+{
+    "model": "prueba.cocinero",
+    "pk": 5,
+    "fields": {
+        "nombre": "Francotirapossi",
+        "nacionalidad": 3,
+        "pizzas": [
+            4
+        ]
+    }
+},
+{
+    "model": "prueba.pais",
+    "pk": 1,
+    "fields": {
+        "nombre": "Peronia"
+    }
+},
+{
+    "model": "prueba.pais",
+    "pk": 2,
+    "fields": {
+        "nombre": "Bolivia"
+    }
+},
+{
+    "model": "prueba.pais",
+    "pk": 3,
+    "fields": {
+        "nombre": "LA MONARQUIA"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$lvc8QRaU1svr$fsZp1RhHdD5ZQLZoH35rrq+oGcM+0EvEUnbdQmuVu6U=",
+        "last_login": "2020-10-20T01:09:45.906Z",
+        "is_superuser": true,
+        "username": "bgcito",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-10-20T01:09:30.961Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$bBukH0GWt4ob$u9rd8sAnqbUlLD5XDiB0L/u6/k5yU3gIyfqCseT2XIg=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "fantino",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-10-20T01:10:49.569Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "gdoex6x46ojpw88vlih6sp9z6nns2l59",
+    "fields": {
+        "session_data": "NTZlZGYwNThjMWU0MDE3MzAxNTYxZTc2N2UwNjI0YjJiOTYxMzIyYTp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI1NmU2NGU4ZjUxMzRmNGViNWJjMDU3MzA1N2MwNTJmN2RhYTdmYTdlIn0=",
+        "expire_date": "2020-11-03T01:09:46.014Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2020-10-20T22:03:40.376Z",
+        "user": [
+            "bgcito"
+        ],
+        "content_type": [
+            "prueba",
+            "pais"
+        ],
+        "object_id": "1",
+        "object_repr": "Pais object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2020-10-20T22:03:53.650Z",
+        "user": [
+            "bgcito"
+        ],
+        "content_type": [
+            "prueba",
+            "pais"
+        ],
+        "object_id": "1",
+        "object_repr": "Pais object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Nombre\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2020-10-20T22:05:47.061Z",
+        "user": [
+            "bgcito"
+        ],
+        "content_type": [
+            "prueba",
+            "pais"
+        ],
+        "object_id": "2",
+        "object_repr": "Pais lalala :Bolivia",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2020-10-20T22:05:52.287Z",
+        "user": [
+            "bgcito"
+        ],
+        "content_type": [
+            "prueba",
+            "pais"
+        ],
+        "object_id": "3",
+        "object_repr": "Pais lalala :LA MONARQUIA",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2020-10-20T22:06:54.734Z",
+        "user": [
+            "bgcito"
+        ],
+        "content_type": [
+            "prueba",
+            "pizza"
+        ],
+        "object_id": "1",
+        "object_repr": "Pizza object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2020-10-20T22:07:04.640Z",
+        "user": [
+            "bgcito"
+        ],
+        "content_type": [
+            "prueba",
+            "pizza"
+        ],
+        "object_id": "2",
+        "object_repr": "Pizza object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2020-10-20T22:07:51.019Z",
+        "user": [
+            "bgcito"
+        ],
+        "content_type": [
+            "prueba",
+            "cocinero"
+        ],
+        "object_id": "1",
+        "object_repr": "Pais lalala :Diego Barrientos",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2020-10-20T22:08:00.905Z",
+        "user": [
+            "bgcito"
+        ],
+        "content_type": [
+            "prueba",
+            "pizza"
+        ],
+        "object_id": "3",
+        "object_repr": "Pais lalala :pizza con anana",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2020-10-20T22:08:06.994Z",
+        "user": [
+            "bgcito"
+        ],
+        "content_type": [
+            "prueba",
+            "pizza"
+        ],
+        "object_id": "4",
+        "object_repr": "Pais lalala :wadwadwad",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2020-10-20T22:09:49.333Z",
+        "user": [
+            "bgcito"
+        ],
+        "content_type": [
+            "prueba",
+            "cocinero"
+        ],
+        "object_id": "1",
+        "object_repr": "Pais lalala :Diego Barrientos",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Pizzas\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2020-10-20T22:10:34.299Z",
+        "user": [
+            "bgcito"
+        ],
+        "content_type": [
+            "prueba",
+            "cocinero"
+        ],
+        "object_id": "1",
+        "object_repr": "Cocinero:Diego Barrientos",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Nacionalidad\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2020-10-21T21:39:32.732Z",
+        "user": [
+            "bgcito"
+        ],
+        "content_type": [
+            "prueba",
+            "pizza"
+        ],
+        "object_id": "5",
+        "object_repr": "Pizza:la favorita de diego",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2020-10-22T02:45:02.058Z",
+        "user": [
+            "bgcito"
+        ],
+        "content_type": [
+            "prueba",
+            "cocinero"
+        ],
+        "object_id": "2",
+        "object_repr": "Cocinero:Amigoso",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2020-10-22T02:45:11.716Z",
+        "user": [
+            "bgcito"
+        ],
+        "content_type": [
+            "prueba",
+            "cocinero"
+        ],
+        "object_id": "3",
+        "object_repr": "Cocinero:respeto cabre",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2020-10-22T02:45:28.984Z",
+        "user": [
+            "bgcito"
+        ],
+        "content_type": [
+            "prueba",
+            "cocinero"
+        ],
+        "object_id": "4",
+        "object_repr": "Cocinero:CEO OF CIA",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2020-10-22T02:57:55.742Z",
+        "user": [
+            "bgcito"
+        ],
+        "content_type": [
+            "prueba",
+            "cocinero"
+        ],
+        "object_id": "5",
+        "object_repr": "Cocinero:Francotirapossi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
