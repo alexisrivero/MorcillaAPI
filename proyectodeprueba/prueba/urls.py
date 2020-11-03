@@ -17,4 +17,5 @@ urlpatterns = [
          name="obtener_todos_los_cocineros"),
     path('detalle_cocinero/<pk>/',
          views.CocineroDetalleView.as_view(), name='detalle cocinero'),
+    path('formulario/', views.obtener_formulario, name="obtener_formulario")
 ]

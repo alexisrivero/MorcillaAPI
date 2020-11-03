@@ -1,0 +1,16 @@
+{% extends "prueba/base.html" %}
+
+{% block content %}
+
+<h1>hola chorizo</h1>
+<form action="" method="POST">
+    {% csrf_token %}
+    <table>
+        {{form}}
+    </table>
+    <input type="submit" value="Lesgo">
+</form>
+
+
+
+{% endblock %}

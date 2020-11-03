@@ -5,6 +5,7 @@ from django.http import HttpResponse
 from .models import Pizza
 from .models import Cocinero
 from datetime import datetime
+from .forms import GeneradorImagenForm
 
 # Create your views here.
 
@@ -89,3 +90,13 @@ class CocineroView(generic.ListView):
 class CocineroDetalleView(generic.DetailView):
     model = Cocinero
     template_name = "prueba/detalle_cocinero.html"
+
+
+def obtener_formulario(request):
+    if request.method == "POST":
+        resultado = "this is thegame"
+        imagen = None
+        return render(request, "prueba/imagen.html", {"resultado": resultado, "imagen": imagen})
+    else:
+        form = GeneradorImagenForm()
+        return render(request, "prueba/formulario.html", {"form": form})
